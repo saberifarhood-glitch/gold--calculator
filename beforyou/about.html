@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Be for You — Sobre Nós</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">Be<span>forYou</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html" data-pt="Início" data-fa="خانه">Início</a></li>
+      <li><a href="about.html" class="active" data-pt="Sobre Nós" data-fa="درباره ما">Sobre Nós</a></li>
+      <li>
+        <div class="lang-toggle">
+          <button class="lang-btn active" id="btn-pt" onclick="setLang('pt')">PT</button>
+          <button class="lang-btn" id="btn-fa" onclick="setLang('fa')">FA</button>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ABOUT HERO -->
+  <div class="about-hero">
+    <h1 data-pt="Sobre a Be for You" data-fa="درباره Be for You">Sobre a Be for You</h1>
+    <p data-pt="Conheça nossa história, missão e a pessoa por trás da empresa."
+       data-fa="با تاریخچه، ماموریت و فرد پشت این شرکت آشنا شوید.">
+      Conheça nossa história, missão e a pessoa por trás da empresa.
+    </p>
+  </div>
+
+  <!-- COMPANY STORY -->
+  <section>
+    <div class="section-inner">
+      <p class="section-label" data-pt="Nossa história" data-fa="داستان ما">Nossa história</p>
+      <h2 class="section-title" data-pt="Quem é a Be for You?" data-fa="Be for You کیست؟">
+        Quem é a Be for You?
+      </h2>
+      <div class="divider"></div>
+      <p style="color:var(--gray);font-size:1rem;line-height:1.9;max-width:680px;"
+         data-pt="A Be for You é uma empresa sediada em Portugal, especializada em consultoria de comércio internacional. Atuamos como elo entre mercados, facilitando negócios de importação, exportação e parcerias comerciais entre diferentes países. Nossa missão é tornar o comércio exterior acessível, seguro e eficiente para empresas de todos os portes."
+         data-fa="شرکت Be for You مستقر در پرتغال، متخصص در مشاوره تجارت بین‌الملل است. ما به عنوان پیوندی میان بازارها عمل می‌کنیم و تجارت واردات، صادرات و مشارکت‌های تجاری میان کشورهای مختلف را تسهیل می‌کنیم. ماموریت ما این است که تجارت خارجی را برای شرکت‌های تمام اندازه‌ها در دسترس، امن و کارآمد سازیم.">
+        A Be for You é uma empresa sediada em Portugal, especializada em consultoria de comércio internacional. Atuamos como elo entre mercados, facilitando negócios de importação, exportação e parcerias comerciais entre diferentes países. Nossa missão é tornar o comércio exterior acessível, seguro e eficiente para empresas de todos os portes.
+      </p>
+    </div>
+  </section>
+
+  <!-- MAHYAR PROFILE -->
+  <section class="services-bg">
+    <div class="section-inner">
+      <p class="section-label" data-pt="Fundador e Diretor" data-fa="بنیان‌گذار و مدیر">Fundador e Diretor</p>
+      <h2 class="section-title" data-pt="Conheça Mahyar" data-fa="با مهیار آشنا شوید">
+        Conheça Mahyar
+      </h2>
+      <div class="divider"></div>
+
+      <div class="profile-card">
+        <div class="profile-avatar">👤</div>
+        <div>
+          <h3 class="profile-name">Mahyar</h3>
+          <p class="profile-title"
+             data-pt="Fundador · Especialista em Comércio Internacional"
+             data-fa="بنیان‌گذار · متخصص تجارت بین‌الملل">
+            Fundador · Especialista em Comércio Internacional
+          </p>
+          <p class="profile-bio"
+             data-pt="Mahyar é um bom rapaz."
+             data-fa="مهیار پسر خوبی است.">
+            Mahyar é um bom rapaz.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section>
+    <div class="section-inner">
+      <p class="section-label" data-pt="Nossos valores" data-fa="ارزش‌های ما">Nossos valores</p>
+      <h2 class="section-title" data-pt="O que nos guia" data-fa="آنچه ما را هدایت می‌کند">O que nos guia</h2>
+      <div class="divider"></div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🎯</div>
+          <h3 data-pt="Comprometimento" data-fa="تعهد">Comprometimento</h3>
+          <p data-pt="Dedicação total a cada projeto, garantindo os melhores resultados para nossos clientes."
+             data-fa="تعهد کامل به هر پروژه و اطمینان از بهترین نتایج برای مشتریانمان.">
+            Dedicação total a cada projeto, garantindo os melhores resultados para nossos clientes.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🔍</div>
+          <h3 data-pt="Transparência" data-fa="شفافیت">Transparência</h3>
+          <p data-pt="Comunicação clara e honesta em todas as etapas do processo comercial."
+             data-fa="ارتباط شفاف و صادقانه در تمام مراحل فرآیند تجاری.">
+            Comunicação clara e honesta em todas as etapas do processo comercial.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🌍</div>
+          <h3 data-pt="Visão Global" data-fa="دیدگاه جهانی">Visão Global</h3>
+          <p data-pt="Conhecimento profundo dos mercados internacionais para conectar oportunidades ao redor do mundo."
+             data-fa="دانش عمیق از بازارهای بین‌الملل برای اتصال فرصت‌ها در سراسر جهان.">
+            Conhecimento profundo dos mercados internacionais para conectar oportunidades ao redor do mundo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section">
+    <div class="section-inner">
+      <p class="section-label" style="color:var(--accent);" data-pt="Fale conosco" data-fa="تماس با ما">Fale conosco</p>
+      <h2 class="section-title" data-pt="Vamos trabalhar juntos?" data-fa="با هم کار کنیم؟">
+        Vamos trabalhar juntos?
+      </h2>
+      <p class="section-sub"
+         data-pt="Envie um e-mail e daremos início à sua jornada no comércio internacional."
+         data-fa="یک ایمیل بفرستید و سفر شما در تجارت بین‌الملل را آغاز کنیم.">
+        Envie um e-mail e daremos início à sua jornada no comércio internacional.
+      </p>
+      <a href="mailto:mahyar-goodboy@gmail.com" class="contact-email">
+        ✉️ mahyar-goodboy@gmail.com
+      </a>
+      <footer>
+        <p>© 2025 Be for You · Portugal · <span data-pt="Todos os direitos reservados" data-fa="تمام حقوق محفوظ است">Todos os direitos reservados</span></p>
+      </footer>
+    </div>
+  </section>
+
+  <script src="lang.js"></script>
+</body>
+</html>
